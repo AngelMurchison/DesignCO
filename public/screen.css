@@ -15,9 +15,14 @@ div {
     justify-content: space-between;
 }
 
-img.navbar {
-    margin-right: 50px;
-    margin-left: 50px;
+ul {
+    border-top: 4px solid red;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 420px;
 }
 
 .eyeglass {
@@ -56,22 +61,8 @@ imagebox2 {
     padding-top: 5px;
 }
 
-ul {
-    border-top: 4px solid red;
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left: 420px;
-}
-
 a {
     padding-left: 20px;
-}
-
-li.row1 {
-    justify-content: flex-end;
 }
 
 p {
